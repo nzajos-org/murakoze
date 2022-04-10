@@ -57,7 +57,7 @@ func deleteMember(w http.ResponseWriter, r *http.Request) {
 
 }
 
-//test webhookkkkkklllhtkljkjlkjkjhnbnjvkjh
+//test webhookkkkkklllhtkljkjlkjkjhn
 func handleRequests() {
 	myRouter := mux.NewRouter().StrictSlash(true)
 	myRouter.HandleFunc("/", homePage)
